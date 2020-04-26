@@ -15,12 +15,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     var data = [
-        ["⚽️ Soccer",       "⛳️ Golf",      "🏀 Basketball",    "🏈 American Football",
-         "⚾️ Baseball",     "🎾 Tennis",    "🏐 Valleyball",    "🏸 Badminton"],
-        ["🍎 Apple",        "🍐 Pear",      "🍓 Strawberry",    "🥑 Avocado",
-         "🍌 Banana",       "🍇 Grape",     "🍈 Melon",         "🍊 Orange",
-            "🍑 Peach",        "🥝 Kiwi"],
-        ["🚙 Car",      "✈️ Plane",     "🚄 Train",     "🚤 Ship"]
+        ["💻 Coding",       "🎥 Filmmaking",      "🔬 Science",    "🎹 Arts",
+         "💃 Dancing",     "🏓 Sports",    "📚 LitClub",    "📝 Writing", "⛺️ Scouts", "🎭 Acting", "🍱 Cooking"],
+        ["Mon-Fri 💻Coding",        "Sat-Sun 🎥Filmmaking",      "Mon-Fri 🔬Science",    "Wed,Th 🎹Arts",
+        "Tue-Fri 💃Dancing",     "Mon-Sun 🏓Sports",    "Sat 📚LitClub",    "Sat 📝Writing", "Sun ⛺️Scouts", "Sat-Sun 🎭Acting", "Wed 🍱Cooking"],
+        ["Kyiv vul.Holosiivska,13A", "Kyiv vul.LvivskaSquare,14"]
     ]
 
     var p: Int!
@@ -31,7 +30,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let nib = UINib.init(nibName: "CustomCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "customCell")
         
-        tableView.backgroundColor = .darkGray
+        tableView.backgroundColor = .white
         
         p = 0
     }

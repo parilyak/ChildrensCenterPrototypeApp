@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Switch CustomTableVIew-->
+        <!--Creative Kids-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Creative_Kids" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,9 +19,9 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KAn-6n-lgF">
                                 <rect key="frame" x="20" y="105" width="374" height="32"/>
                                 <segments>
-                                    <segment title="Sport"/>
-                                    <segment title="Fruit"/>
-                                    <segment title="Other"/>
+                                    <segment title="Activities"/>
+                                    <segment title="Schedule"/>
+                                    <segment title="Locations"/>
                                 </segments>
                                 <connections>
                                     <action selector="switchCustomTableViewAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="YXL-oP-3Mq"/>
@@ -49,7 +49,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Switch CustomTableVIew" id="3Rr-Lb-yo4"/>
+                    <navigationItem key="navigationItem" title="Creative Kids" id="3Rr-Lb-yo4"/>
                     <connections>
                         <outlet property="tableView" destination="8gP-AZ-Ddl" id="GBO-eS-bqQ"/>
                     </connections>

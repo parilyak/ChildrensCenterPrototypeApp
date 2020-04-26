@@ -30,8 +30,8 @@ class CustomCell: UITableViewCell {
         self.titleLabel.text = text
         self.accessoryLabel.text = accessoryText
         
-        self.titleLabel.textColor = .white
-        self.contentView.backgroundColor = .darkGray
+        self.titleLabel.textColor = .black
+        self.contentView.backgroundColor = .white
     }
     
 }
