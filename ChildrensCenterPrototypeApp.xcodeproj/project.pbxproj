@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3621F5212455D158004DC4F9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3621F51F2455D158004DC4F9 /* CustomCell.swift */; };
+		3621F5222455D158004DC4F9 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3621F5202455D158004DC4F9 /* CustomCell.xib */; };
 		36C25B7824544E7700A1A796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C25B7724544E7700A1A796 /* AppDelegate.swift */; };
 		36C25B7A24544E7700A1A796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C25B7924544E7700A1A796 /* SceneDelegate.swift */; };
 		36C25B7C24544E7700A1A796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C25B7B24544E7700A1A796 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3621F51F2455D158004DC4F9 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3621F5202455D158004DC4F9 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		36C25B7424544E7700A1A796 /* Creative Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creative Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C25B7724544E7700A1A796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C25B7924544E7700A1A796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3621F51E2455D117004DC4F9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3621F51F2455D158004DC4F9 /* CustomCell.swift */,
+				3621F5202455D158004DC4F9 /* CustomCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		36C25B6B24544E7700A1A796 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		36C25B7624544E7700A1A796 /* ChildrensCenterPrototypeApp */ = {
 			isa = PBXGroup;
 			children = (
+				3621F51E2455D117004DC4F9 /* Cell */,
 				36C25B7724544E7700A1A796 /* AppDelegate.swift */,
 				36C25B7924544E7700A1A796 /* SceneDelegate.swift */,
 				36C25B7B24544E7700A1A796 /* ViewController.swift */,
@@ -234,6 +248,7 @@
 			files = (
 				36C25B8424544E7900A1A796 /* LaunchScreen.storyboard in Resources */,
 				36C25B8124544E7900A1A796 /* Assets.xcassets in Resources */,
+				3621F5222455D158004DC4F9 /* CustomCell.xib in Resources */,
 				36C25B7F24544E7700A1A796 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +276,7 @@
 			files = (
 				36C25B7C24544E7700A1A796 /* ViewController.swift in Sources */,
 				36C25B7824544E7700A1A796 /* AppDelegate.swift in Sources */,
+				3621F5212455D158004DC4F9 /* CustomCell.swift in Sources */,
 				36C25B7A24544E7700A1A796 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
