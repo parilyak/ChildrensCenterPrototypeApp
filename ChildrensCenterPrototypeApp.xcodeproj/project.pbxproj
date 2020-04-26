@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36C25B7424544E7700A1A796 /* ChildrensCenterPrototypeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildrensCenterPrototypeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C25B7424544E7700A1A796 /* Creative Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creative Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C25B7724544E7700A1A796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C25B7924544E7700A1A796 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36C25B7B24544E7700A1A796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		36C25B7524544E7700A1A796 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36C25B7424544E7700A1A796 /* ChildrensCenterPrototypeApp.app */,
+				36C25B7424544E7700A1A796 /* Creative Kids.app */,
 				36C25B8A24544E7900A1A796 /* ChildrensCenterPrototypeAppTests.xctest */,
 				36C25B9524544E7900A1A796 /* ChildrensCenterPrototypeAppUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = ChildrensCenterPrototypeApp;
 			productName = ChildrensCenterPrototypeApp;
-			productReference = 36C25B7424544E7700A1A796 /* ChildrensCenterPrototypeApp.app */;
+			productReference = 36C25B7424544E7700A1A796 /* Creative Kids.app */;
 			productType = "com.apple.product-type.application";
 		};
 		36C25B8924544E7900A1A796 /* ChildrensCenterPrototypeAppTests */ = {
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lilya.ChildrensCenterPrototypeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Creative Kids";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lilya.ChildrensCenterPrototypeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Creative Kids";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
