@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,40 +11,41 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="childrenCenterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="YbR-zY-Sho">
-                                <rect key="frame" x="129" y="116" width="156" height="175"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="175" id="B2Q-Wc-NuZ"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creative Kids" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2V-kR-K4C">
-                                <rect key="frame" x="136" y="319" width="142" height="27"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="vAQ-rN-a53"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iuF-Pb-mAv">
+                                <rect key="frame" x="136" y="109" width="161" height="210.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="childrenCenterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="YbR-zY-Sho">
+                                        <rect key="frame" x="0.0" y="0.0" width="161" height="182"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="182" id="Nbx-Xn-Zev"/>
+                                            <constraint firstAttribute="width" constant="161" id="mFT-QU-sJY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creative Kids" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qw4-y9-zee">
+                                        <rect key="frame" x="0.0" y="190" width="161" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YbR-zY-Sho" secondAttribute="trailing" constant="129" id="0Cc-Sx-pKk"/>
-                            <constraint firstItem="j2V-kR-K4C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="844-ts-aiq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j2V-kR-K4C" secondAttribute="trailing" constant="136" id="FAF-Ow-7RR"/>
-                            <constraint firstItem="YbR-zY-Sho" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="72" id="Qht-M5-2VV"/>
-                            <constraint firstItem="YbR-zY-Sho" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="WhQ-VG-aaQ"/>
-                            <constraint firstItem="j2V-kR-K4C" firstAttribute="top" secondItem="YbR-zY-Sho" secondAttribute="bottom" constant="28" id="jm0-cg-Qh5"/>
+                            <constraint firstItem="iuF-Pb-mAv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="0uo-go-v6W"/>
+                            <constraint firstItem="iuF-Pb-mAv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="Qrn-wF-qxw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iuF-Pb-mAv" secondAttribute="bottom" constant="542.5" id="V5t-3M-lQj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iuF-Pb-mAv" secondAttribute="trailing" constant="117" id="d58-yO-9gk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
